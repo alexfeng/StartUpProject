@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'StartUpProject', :exclusive => true do
+  pod "FMDB" #DataBase
+end
+
+target 'StartUpProjectTests', :exclusive => true do
+  pod "FMDB" #DataBase
+  # pod "BZLib", :path => "../"
+  
+end
